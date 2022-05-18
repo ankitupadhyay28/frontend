@@ -165,8 +165,8 @@ ul li a {
 
 .background-image-elements button {
     padding: 0.5rem;
-    width: 15rem;
-    height: 3rem;
+    width: 15.5rem;
+    height: 2.5rem;
     margin-left: 4rem;
     margin-top: 2rem;
     background-color: rgb(216, 86, 86);
@@ -204,54 +204,5 @@ ul li a {
     background-image: url(images/Screenshot\ \(35\).png);
     background-repeat: no-repeat;
     background-size: 33.7rem 35rem;
-
-}
-
-
-
-
-
-
-
-/* ------------------------- Login page ---------------------------------- */
-.log-main-box {
-    display: flex;
-    justify-content: center;
-    height: 30rem;
-    width: 40rem;
-    border: 1px solid black;
-    margin: 7rem 0rem 0rem 50rem;
-}
-
-
-
-.log-login {
-    color: rgb(41, 118, 233);
-    font-size: 2rem;
-
-}
-
-.log-btn-login {
-    height: 2.2rem;
-    width: 20rem;
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 15px;
-    background-color: #d85959;
-    color: #fff;
-    font-size: 1.2rem;
-}
-
-.log-input-size {
-    width: 20rem;
-    height: 2rem;
-}
-
-.log-margin-top {
-    margin-bottom: 1rem;
-}
-
-.log-hr {
-    width: 19.8rem;
 
 }

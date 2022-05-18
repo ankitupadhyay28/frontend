@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                body {
+                        left: 0;
+                        right: 0;
+                        top: 0;bottom: 0;padding: 0; margin: 0;
+                }
+                .main {
+                        height: 100vh;
+                        display: flex;
+                        flex-direction:column;
+                        justify-content:space-between;
+                }
+
+                .box {
+                        height: 5rem;
+                        width: 5rem;
+                        border: 2px double red;
+                        margin: 0.5rem;
+                }
+
+                .row{display:flex; justify-content: space-between;}
+
+                .container {
+                        /*display:flex;*/
+                        flex-direction: column;
+                }
+
+                .container1 {
+                        justify-content: start;
+                        align-items: flex-start;
+                }
+
+                .container2 {
+                        justify-content: start;
+                        align-items: center;
+                }
+
+                .container3 {
+                        justify-content: start;
+                        align-items: flex-end;
+                }
+
+                .container4 {
+                        justify-content: center;
+                        align-items: flex-start;
+                }
+
+                .container5 {
+                        justify-content: center;
+                        align-items: center;
+                }
+
+                .container6 {
+                        justify-content: center;
+                        align-items: flex-end;
+                }
+
+                .container7 {
+                        justify-content: end;
+                        align-items: flex-start;
+                }
+
+                .container8 {
+                        justify-content: end;
+                        align-items: center;
+                }
+
+                .container9 {
+                        justify-content: end;
+                        align-items: flex-end;
+                }
+        </style>
+</head>
+
+<body>
+
+        <div class="main">
+                <div class="row">
+                        <div class="container container1">
+                                <div class="box"> 1 </div>
+                        </div>
+
+                        <div class="container container2">
+                                <div class="box"> 2 </div>
+                        </div>
+
+                        <div class="container container3">
+                                <div class="box"> 3 </div>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="container container4">
+                                <div class="box"> 4 </div>
+                        </div>
+
+                        <div class="container container5">
+                                <div class="box"> 5 </div>
+                        </div>
+
+                        <div class="container container6">
+                                <div class="box"> 6 </div>
+                        </div>
+                </div>
+
+                <div class="row">
+                        <div class="container container7">
+                                <div class="box"> 7 </div>
+                        </div>
+
+                        <div class="container container8">
+                                <div class="box"> 8 </div>
+                        </div>
+
+                        <div class="container container9">
+                                <div class="box"> 9 </div>
+                        </div>
+
+                </div>
+
+
+
+
+
+
+        </div>
+
+</body>
+
+</html>

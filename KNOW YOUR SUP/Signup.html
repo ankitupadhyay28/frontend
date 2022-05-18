@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/9ea961d9e3.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="loging.css"> -->
+    <style>
+        body {
+            background-image: url("images/auth.svg");
+            background-repeat: no-repeat;
+            /* background-color: rgb(240, 250, 253); */
+            font-family: sans-serif;
+        }
+
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 3rem;
+            margin-left: 25rem;
+        }
+
+        .loging-heading {
+            color: hsl(234, 100%, 34%);
+            font-size: 1.3rem;
+            margin-right: 6rem;
+            margin-bottom: -0.5rem;
+        }
+
+        .logging-email input {
+            width: 15rem;
+            height: 1.5rem;
+            margin-left: 10rem;
+            margin-bottom: 1.2rem;
+            margin-top: 0.3rem;
+        }
+
+        .logging-email label {
+            position: relative;
+            left: 10rem;
+            color: hsl(234, 100%, 21%);
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .loging-password input {
+            width: 20rem;
+            height: 1.7rem;
+            margin-left: 10rem;
+            margin-top: 0.3rem;
+        }
+
+        .loging-password label {
+            margin-left: 10rem;
+            color: hsl(234, 100%, 21%);
+        }
+
+        .loging-password a {
+            margin-left: 7rem;
+            color: hsl(234, 55%, 43%);
+        }
+
+        .loging-signs button {
+            width: 32rem;
+            height: 1.9rem;
+            margin-top: -1rem;
+            margin-left: 18.5rem;
+            background-color: #d85959;
+            border: none;
+            font-size: 1rem;
+            
+        }
+        #a11{text-decoration: none; font-weight: bold; color: #fff;}
+        
+
+        .logging-logs {
+            margin-left: 16rem;
+            margin-bottom: -1.5rem;
+            font-size: 1rem;
+        }
+
+        .logging-logs a {
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+
+        .logging-logs p {
+            color: hsl(234, 100%, 21%);
+        }
+
+        .logging-google input {
+            display: flex;
+            justify-content: center;
+            width: 16rem;
+            height: 1.9rem;
+             margin-left: 10rem;
+            left: 10rem;
+            margin-bottom: 1.2rem;
+            margin-top: 0.3rem;
+            font-weight: bold;
+            color: hsl(234, 100%, 21%);
+        }
+        #logo-icon {
+            position: relative;
+            left: 13rem;
+            top: 1.8rem
+        }
+
+        .user-details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0rem 20rem 0px 19rem;
+        }
+
+        form .user-details .input-box {
+            margin-bottom: -0.3rem;
+            width: calc(100% / 2 - 20px);
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Know Your Supplier</h1>
+    <form>
+        <div class="main-container">
+            <div class="loging-heading">
+                <h2>SIGN UP</h2>
+            </div>
+            <div class="user-details logging-email">
+
+                <div class="input-box">
+                    <label for="PAN"> <i id="hide1" class="fa fa-id-card"> </i> PAN</label><br>
+                    <input type="text" id="PAN" name="PAN" placeholder="Enter PAN"  />
+                </div>
+                <div class="input-box">
+                    <label for="Name"> <i id="hide1" class="fa fa-user"> </i> Name</label><br>
+                    <input type="text" id="Name" name="Name" placeholder="Enter Your Name"  />
+                </div>
+                <div class="input-box">
+                    <label for="Organisation Name"> <i id="hide1" class="fa fa-building-o"> </i> Organisation
+                        Name</label><br>
+                    <input type="text" id="Organisation Name" name="Organisation Name"
+                        placeholder="Enter Organisation Name"  />
+                </div>
+                <div class="input-box">
+                    <label for="Email"> <i id="hide1" class="fa fa-envelope"> </i> Email</label><br>
+                    <input type="text" id="Email" name="Email" placeholder="Enter Your Email"  />
+                </div>
+                <div class="input-box">
+                    <label for="Mobile No."> <i id="hide1" class="fa fa-phone"> </i> Mobile No.</label><br>
+                    <input type="text" id="Mobile No." name="Mobile No." placeholder="Enter Mobile No"  />
+                </div>
+                <div class="input-box">
+                </div>
+                <div class="input-box">
+                    <label for="password"> <i id="hide1" class="fa fa-lock"></i> Password</label>
+                    <input type="password" name="password" autocomplete="current-password" placeholder="Enter Password"
+                        ="" id="id_password" />
+                </div>
+                <div class="input-box">
+                    <label for="Confirm Password"> <i id="hide1" class="fa fa-lock"></i>Confirm Password</label>
+                    <input type="password" name="Confirm Password" autocomplete="current-password"
+                        placeholder="Renter Password" ="" id="Confirm Password" />
+
+                </div>
+            </div>
+
+            <div class="loging-signs">
+                <button><a id="a11" href="verify.html">Sign Up </a></button>
+            </div>
+
+            <div class="logging-logs">
+                <p>Already a User ?<a href="loging.html"> Log In</a></p>
+            </div>
+            <div class="user-details logging-google">
+                <div class="input-box">
+                    <i id="logo-icon" class="fa-brands fa-google"> </i> <input type="button"
+                            value=" Login with Google" />
+                </div>
+                <div class="input-box">
+                  <i id="logo-icon" class="fa-brands fa-microsoft"> </i> <input type="button"
+                            value="  Login with Microsoft" />
+                </div>
+            </div>
+
+
+        </div>
+    </form>
+</body>
+
+</html>

@@ -6,26 +6,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- 
+    <link rel="stylesheet" href="forgetpass.css"> -->
 
-<link rel="stylesheet" href="forgetpass.css">
+    <style>
+
+        body {
+            background-image: url("images/auth.svg");
+            background-repeat: no-repeat;
+            /* background-color: rgb(240, 250, 253); */
+            font-family: sans-serif;
+        }
+
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 11rem;
+            margin-left: 35rem;
+
+        }
+
+        .heading-div {
+            color: hsl(234, 100%, 34%);
+            font-size: 1.2rem;
+        }
+
+        .email-div label {
+            margin-left: 2rem;
+            font-weight: bold;
+            font-size: 0.9rem;
+            color: hsl(234, 100%, 21%);
+
+        }
+
+        .email-div input {
+            width: 20rem;
+            height: 1.7rem;
+            margin-left: 2rem;
+            margin-top: 0.5rem;
+        }
+
+        .button-div {
+            width: 20.5rem;
+            height: 1.9rem;
+            margin-left: 2rem;
+            margin-top: 1.8rem;
+            background-color: #d85959;
+            border: none;
+            color: #fff; 
+
+        }
+
+        .para-div {
+            font-size: 0.8rem;
+            margin-left: 2rem;
+            color: hsl(234, 100%, 21%);
+        }
+
+    </style>
+
 </head>
 
 <body>
+    <h1>Know Your Supplier</h1>
     <div class="main-container">
-        <div class="small-container">
-            <div id="forget-header">
-                <h2>FORGOT PASSWORD</h2>
-            </div>
-            <div> <label for="email">Email</label><br>
-                <input type="email" id="email" name="email" placeholder="Enter Email" required />
-            </div>
-            <div>
-                <a href="forgetsuccespass.html"><button class="logcolor">Send Password Reset Link</button></a>
-            </div>
+
+        <div class="heading-div">
+            <h2>FORGOT PASSWORD</h2>
+        </div>
+
+        <div class="email-div">
+            <label for="email">Email</label><br>
+            <input type="email" name="email" placeholder="Enter Email" />
+        </div>
+
+        <div>
+            <a href="forgetsuccespass.html"><button class="button-div">Send Password Reset Link</button></a>
+        </div>
+
+        <div class="para-div">
             <p>Password reset link will be sent to your mail </p>
         </div>
     </div>
-
 </body>
 
 </html>
