@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    background-image: url("images/auth.svg");
+    background-repeat: no-repeat;
+    background-color: rgb(240, 250, 253);
+    width: 100vh;
+}
+
+div {
+    width: 40rem;
+    height: 4rem;
+    margin: 0.5rem 32rem;
+}
+
+.main-container {
+    height: 20rem;
+    margin-right: 80rem;
+    margin-top: 8rem;
+}
+
+
+.small-container {
+    margin-top: 7rem;
+    margin-left: 50rem;
+}
+
+#forget-header {
+    color: hsl(234, 100%, 34%);
+    font-size: 1.2rem;
+    margin-bottom: -1rem;
+}
+
+input {
+    margin-top: 0.3rem;
+    width: 20rem;
+    height: 1.6rem;
+}
+
+button {
+    margin-top: 0.3rem;
+    width: 20.7rem;
+    height: 1.8rem;
+    font-size: 0.8rem;
+}
+
+p {position: absolute;
+    margin-top: -2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 34rem;
+}
+
+
+.logcolor {
+    background-color: #d85959;
+    border: none;
+    height: 2rem;
+    margin-top: -1rem;
+    color: #fff;
+}

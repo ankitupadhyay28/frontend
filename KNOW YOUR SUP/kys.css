@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.main {
+
+    height: 6rem;
+}
+
+.logo {
+    width: 12rem;
+    height: 4rem;
+    margin-left: 45px;
+    margin-top: 1rem;
+}
+
+.vl {
+    color: rgb(221, 230, 233);
+    height: 40px;
+    position: relative;
+    bottom: 3.2rem;
+    margin-left: 280px;
+    margin-top: 0.1rem;
+}
+
+ul {
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 17rem;
+    bottom: 7rem;
+    width: 50rem;
+
+}
+
+ul li {
+    list-style: none;
+    margin: 2rem;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(95, 93, 93);
+    font-size: 1.2rem;
+}
+
+.search {
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 11.3rem;
+    right: 11rem;
+
+}
+
+.search button {
+    background: #d85959;
+    padding: 0.7rem;
+    border: none;
+    color: #fff;
+    width: 6.5rem;
+    font-size: 1rem;
+}
+
+.search a {
+    padding: 0.5rem;
+}
+
+.login {
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    color: #d85959;
+    font-size: 1.2rem;
+}
+
+.header2 {
+
+    height: 4rem;
+    background-color: rgb(221, 230, 233);
+}
+
+.header2 p {
+    display: inline-block;
+    margin: 1rem 0rem 1rem 4rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+
+
+}
+
+.p1 {
+    font-weight: bold;
+
+
+}
+
+.p1 a {
+    text-decoration: none;
+    color: rgb(95, 93, 93);
+
+}
+
+.p1 a:hover {
+    color: rgb(5, 88, 156);
+}
+
+.line {
+    color: rgb(20, 20, 109);
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    bottom: 0.5rem;
+
+}
+
+.bg-image-container {
+
+    height: 40rem;
+    /* background-color: rgb(237, 242, 250); */
+    background-color:rgb(240, 250, 253)
+
+
+}
+
+.background-image-elements {
+
+    display: inline-block;
+    position: relative;
+    bottom: 11rem;
+    height: 29rem;
+    width: 50rem;
+    left: 9rem;
+
+
+}
+
+.background-image-elements h2 {
+
+    font-size: 2.8rem;
+    margin-left: 3rem;
+    padding: 1rem;
+    color: rgb(5, 88, 156);
+    font-weight: 3rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 3.2rem;
+}
+
+.background-image-elements p {
+
+    font-size: 1.3rem;
+    margin-left: 4rem;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(41, 60, 112);
+    font-weight: 3rem;
+
+
+}
+
+.background-image-elements button {
+    padding: 0.5rem;
+    width: 15rem;
+    height: 3rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    background-color: rgb(216, 86, 86);
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+
+}
+
+.background-image-elements span {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(41, 60, 112);
+    font-size: 1.1rem;
+
+
+
+}
+
+.background-image-elements a {
+    color: rgb(41, 118, 233);
+
+}
+
+.img {
+    display: inline-block;
+    height: 35rem;
+    width: 35rem;
+    position: relative;
+    left: 15rem;
+    top: 4.9rem;
+    background-image: url(images/Screenshot\ \(35\).png);
+    background-repeat: no-repeat;
+    background-size: 33.7rem 35rem;
+
+}
+
+
+
+
+
+
+
+/* ------------------------- Login page ---------------------------------- */
+.log-main-box {
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+    width: 40rem;
+    border: 1px solid black;
+    margin: 7rem 0rem 0rem 50rem;
+}
+
+
+
+.log-login {
+    color: rgb(41, 118, 233);
+    font-size: 2rem;
+
+}
+
+.log-btn-login {
+    height: 2.2rem;
+    width: 20rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    background-color: #d85959;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.log-input-size {
+    width: 20rem;
+    height: 2rem;
+}
+
+.log-margin-top {
+    margin-bottom: 1rem;
+}
+
+.log-hr {
+    width: 19.8rem;
+
+}
